@@ -47,4 +47,7 @@ public class Calculadora {
             }
         } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta "scanner.close()"
     }
+   public int multiplicar(int a,int b){
+    return a*b;
+   }
 }
